@@ -63,7 +63,7 @@ export default function Header() {
   };
 
   return (
-    <header className="w-full bg-header sticky top-0 z-50">
+    <header className="w-full bg-header relative z-50">
       {/* ===================== DESKTOP ===================== */}
       <div className="hidden lg:block">
         {/* Top Bar — Search + Cart */}
